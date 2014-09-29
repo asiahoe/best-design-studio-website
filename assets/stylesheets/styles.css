@@ -1,0 +1,128 @@
+
+/* General */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #333;
+	font: 1em/1.5 "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.06em;
+}
+
+img {
+	max-width: 100%;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.container {
+	margin: 0 auto;
+	width: 62.27%;
+}
+
+.site-nav ol, .image-gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Site Header */
+
+.site-header {
+	background-color: #fff;
+	border-bottom: 3px solid #ac4e66;
+	padding: 1.5em 0;
+	position: fixed;
+		top: 0;
+	width: 62.27%;
+		height: 10%;
+	z-index: 1;
+
+}
+
+.site-title {
+	float: left;
+	margin: 0;
+}
+
+.site-nav {
+	float: right;
+	font-size: .88em;
+}
+
+.site-nav li {
+	display: inline;
+	margin: .8em;
+}
+
+.site-nav a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited, nav.site-nav a:hover, nav.site-nav a:focus, nav.site-nav a:active {
+	color: #ac4e66;
+}
+
+/* Main */
+
+#about, #contact {
+	font-size: 1.08em;
+	margin: 9em 0 5.5em 50%;
+	padding-left: .75em;
+	width: 50%;
+}
+
+/* Portfolio */
+
+.image-gallery li {
+	float: left;
+	margin: 0 2% 2% 0;
+	width: 49%;
+}
+
+ .image-gallery li:nth-child(even) {
+	margin-right: 0;
+}
+
+.image-gallery li:nth-last-child(2), .image-gallery li:last-child {
+	margin-bottom: 0;
+}
+
+/* Contact */
+
+#contact a:link a:visited, #contact a:visited, #contact a:visited, #contact a:visited {
+	color: #ac4e66;
+}
+
+#contact {
+	margin-top: 6em;
+}
+
+#contact ul {
+	font-size: .8em;
+	list-style-position: inside;
+	padding: 0;
+}
+
+/* Footer */
+
+.site-footer {
+	border-top: 3px solid #ac4e66;
+	color: #ccc;
+	font-size: .9em;
+	padding: 4.5em 0;
+	text-align: center;
+}
